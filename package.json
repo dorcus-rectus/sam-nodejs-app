@@ -1,0 +1,21 @@
+{
+  "name": "sam-nodejs-app",
+  "version": "1.0.0",
+  "description": "このプロジェクトは、AWS Serverless Application Model (SAM) を使用して構築された Node.js アプリケーションです。",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.767.0",
+    "@aws-sdk/lib-dynamodb": "^3.767.0",
+    "@babel/preset-env": "^7.26.9",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
